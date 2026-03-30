@@ -102,21 +102,6 @@ Response:
 
 DELETE /api/students/{id}
 
-Response:
-
-Student deleted successfully
-🧱 Student Entity Example
-@Entity
-public class Student {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    private String name;
-    private String email;
-    private String course;
-}
 ▶️ How to Run
 Clone the repository:
 git clone https://github.com/your-username/student-management-system.git
@@ -136,4 +121,3 @@ Pagination & sorting
 Validation (email format, required fields)
 Role-based access (Admin/User)
 Docker deployment
-👨‍💻 Author
